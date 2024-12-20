@@ -40,4 +40,5 @@ test.describe("Update user details", { tag: ["@updateUser", "@integration"] }, (
     expect(response.ok()).toBeTruthy();
     expect(response.status()).toBe(200);
   });
+  
 });

@@ -41,4 +41,5 @@ test.describe("Delete user", { tag: ["@deleteUser, @integration"] }, () => {
     );
     expect(responseAfterDeleted.status()).toBe(404);
   });
+  
 });
